@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/cowboy.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>My first Api project</title>
+    <title>Chuck Norris Facts</title>
 </head>
+
 <body>
-    <div class="fact-text" data-text>Chuck Norris Fact</div>
-    <button onclick="fetchApi()">Another Fact</button>
+    <div class="main-container">
+        <div class="child-container">
+            <img src="/image/chuq-resizeimage.png" alt="chuq noia">
+             <div class="joke-container">
+            <div class="fact-text" data-text>Chuck Norris Fact</div>
+        </div>
+        </div>
+       
+        <button onclick="fetchApi()">Another Fact</button>
+        <br>
+        <button onclick="nightMode()" data-night>🌞</button>
+    </div>
 </body>
+
 </html>

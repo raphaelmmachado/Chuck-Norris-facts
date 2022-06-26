@@ -8,3 +8,11 @@ const fetchApi = async () => {
     textElement.textContent = data.value
 }
 fetchApi()
+let isLight = true;
+const toggle = document.querySelector('[data-night]')
+const nightMode = ()=>{
+  isLight = !isLight;
+  isLight ? toggle.innerText = "🌞" : toggle.innerText = "🌚";
+  var rootElement = document.body;
+  rootElement.classList.toggle("lightMode");
+}
