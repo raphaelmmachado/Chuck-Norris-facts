@@ -12,6 +12,7 @@ Get random Chuck Norris Facts.
 - Promises
 - Async / await
 - Fetch
+- Make a night mode button
 ________________________
 
 # Fatos Sobre Chuck Norris
@@ -26,3 +27,4 @@ Receba alguns fatos aleatórios sobre Chuck Norris.
 - Promises
 - Async / await
 - Fetch
+- Fazer um botão de modo noturno
